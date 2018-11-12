@@ -36,3 +36,17 @@ create table host
       account_number varchar(30),
       primary key (host_id),
       foreign key (user_id) references users (user_id));
+
+
+create table guest
+     (guest_id int,
+      user_id int,
+       name varchar(50),
+      address varchar(100),
+      email varchar (50),
+      password varchar(20),
+      phone_number varchar(20),
+      avg_rating number(3,2),
+      profile varchar(20),
+      primary key (guest_id),
+      foreign key (user_id) references users (user_id));
