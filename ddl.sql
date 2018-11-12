@@ -50,3 +50,23 @@ create table guest
       profile varchar(20),
       primary key (guest_id),
       foreign key (user_id) references users (user_id));
+
+
+create table listing
+  (listing_id int,
+   host_id int,
+   address varchar(100),
+   city varchar(100),
+   state varchar(100),
+   zip_code varchar(150),
+   building_type varchar (50),
+   max_capacity int,
+   number_bedroom int,
+   number_beds int,
+   number_bathroom int,
+   min_num_nightstay int,
+   check_in_time varchar(20),
+   check_out_time varchar(20),
+   aminities aminitiesType,
+   primary key (listing_id),
+   foreign key (host_id) references host (host_id));
