@@ -108,3 +108,15 @@ create table payout_info
    total_amount float,
    primary key (payout_id),
    foreign key (host_id) references host (host_id));
+
+
+create table review
+  (review_id int,
+   guest_id int,
+   host_id int,
+   review varchar (1000),
+   rating float,
+   reviewer_type char(1),
+   primary key (review_id),
+   foreign key (guest_id) references guest ( guest_id),
+   foreign key (host_id) references host (host_id));
