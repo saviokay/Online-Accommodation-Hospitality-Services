@@ -98,3 +98,13 @@ create table booking_info
    primary key (booking_id),
    foreign key (guest_id) references guest (guest_id),
    foreign key (listing_id) references listing (listing_id));
+
+
+create table payout_info
+  (payout_id int,
+   host_id int,
+   payout_date timestamp,
+   payout_status int,
+   total_amount float,
+   primary key (payout_id),
+   foreign key (host_id) references host (host_id));
