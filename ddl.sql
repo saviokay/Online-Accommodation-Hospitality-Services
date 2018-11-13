@@ -70,3 +70,31 @@ create table listing
    aminities aminitiesType,
    primary key (listing_id),
    foreign key (host_id) references host (host_id));
+
+
+create table available_table
+  (avail_id int,
+   listing_id,
+   start_date date,
+   end_date date,
+   price_per_night float,
+   primary key (avail_id),
+   foreign key (listing_id) references listing (listing_id));
+
+
+create table booking_info
+  (booking_id int,
+   guest_id int,
+   listing_id int,
+   check_in_date date,
+   check_out_date date,
+   number_adult int,
+   number_children int,
+   payment_method varchar (20),
+   payment_date timestamp,
+   booking_status varchar(20),
+   payout_status int,
+   total_price float,
+   primary key (booking_id),
+   foreign key (guest_id) references guest (guest_id),
+   foreign key (listing_id) references listing (listing_id));
