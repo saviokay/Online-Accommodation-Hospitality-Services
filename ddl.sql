@@ -1,4 +1,17 @@
---Drop Commands To Avoid Redundancies.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+/*
+
+Created on Fri Sep 27 13:16:17 2017
+@author: saviokay
+
+*/
+
+
+/*
+--Drop Commands :
+    Initially declared to avoid prior data redundancies.
+*/
 
 drop table message;
 drop table Review;
@@ -10,9 +23,10 @@ drop table Guest;
 drop table Host;
 drop table Users;
 
---Create Commands For Datasbase Schema.
-
-CREATE Or Replace TYPE aminitiesType AS VARRAY(20) OF VARCHAR(50);
+/*
+--Create Commands:
+    Declared for creating Datasbase Schema.
+*/
 
 create table users
   (user_id int,
@@ -50,6 +64,21 @@ create table guest
       profile varchar(20),
       primary key (guest_id),
       foreign key (user_id) references users (user_id));
+
+/*
+-- aminitiesType:
+
+Declaring custom TYPE for specific category of aminitiesType for the Table Listing. This type helps store
+various services provided by the listing which is added to the table in type VARCHAR. Using 'CREATE OR REPLACE' to help create with overriding properties.
+*/
+
+CREATE OR REPLACE TYPE aminitiesType AS VARRAY(20) OF VARCHAR(50);
+
+/*
+-- Table Listing:
+
+Creating Table Listing with various attributes like listing_id, host_id, address, city etc. Listing_Id is declared as a primary key whereas host_id is declared as a foreign key to provide the reference with the Table Host.
+*/
 
 
 create table listing
