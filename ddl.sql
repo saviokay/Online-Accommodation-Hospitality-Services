@@ -120,3 +120,23 @@ create table review
    primary key (review_id),
    foreign key (guest_id) references guest ( guest_id),
    foreign key (host_id) references host (host_id));
+
+
+create table message
+  (msg_id int,
+   user_id int,
+   msg_date date, msg_body varchar (1000),
+   primary key (msg_id),
+   foreign key (user_id) references users (user_id));
+
+
+/* Users
+Name         Null?    Type
+------------ -------- ------------
+USER_ID NUMBER(38,0)
+NAME    CHAR(50 BYTE)
+ADDRESS VARCHAR2(100 BYTE)
+PHONE_NUMBER    VARCHAR2(20 BYTE)
+EMAIL   VARCHAR2(50 BYTE)
+PASSWORD    VARCHAR2(20 BYTE)
+USER_TYPE   CHAR(5 BYTE) */
