@@ -140,3 +140,15 @@ PHONE_NUMBER    VARCHAR2(20 BYTE)
 EMAIL   VARCHAR2(50 BYTE)
 PASSWORD    VARCHAR2(20 BYTE)
 USER_TYPE   CHAR(5 BYTE) */
+
+--Drop Sequences
+
+Drop sequence AVAILABILITYID;
+Drop sequence BOOK_SEQ1;
+Drop sequence LISTID_SEQ;
+Drop sequence MESSAGEID;
+Drop sequence PAYOUTID;
+Drop sequence REGISTERUSER;
+Drop sequence REVIEWID;
+Drop sequence hostseq;
+Drop sequence guestseq;
