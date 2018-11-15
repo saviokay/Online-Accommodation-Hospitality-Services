@@ -28,6 +28,14 @@ drop table Users;
     Declared for creating Datasbase Schema.
 */
 
+/*
+-- Table Users:
+
+Creating Table User with various attributes like user_id, name, address, phone etc. user_id is declared as a primary key whereas host_id is declared.
+
+*/
+
+
 create table users
   (user_id int,
    name char(50),
@@ -37,6 +45,14 @@ create table users
    password varchar(20),
    user_type char(5),
    primary key(user_id));
+
+
+/*
+-- Table Host:
+
+Creating Table Host with various attributes like host_id, user_id, name, address, phone_number etc. host_id is declared as a primary key whereas user_id is declared as the foreign key.
+
+*/
 
 create table host
      (host_id int,
@@ -78,6 +94,7 @@ CREATE OR REPLACE TYPE aminitiesType AS VARRAY(20) OF VARCHAR(50);
 -- Table Listing:
 
 Creating Table Listing with various attributes like listing_id, host_id, address, city etc. Listing_Id is declared as a primary key whereas host_id is declared as a foreign key to provide the reference with the Table Host.
+
 */
 
 
