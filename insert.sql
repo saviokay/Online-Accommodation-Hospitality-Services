@@ -90,3 +90,13 @@ PASSWORD              VARCHAR2(10)
 PHONE_NUMBER          VARCHAR2(20)
 AVG_RATING            FLOAT(126)
 PROFILE               VARCHAR2(20) */
+
+insert into guest values (
+310,111,'71 Pilgrim Avenue Chevy Chase, MD 20815',
+'emober3@gmail.com','password123','+12025550167',3.5,'p2'
+);
+
+insert into guest values (
+311,113,'44 Shirley Ave.West Chicago, IL 60185, CT 06074',
+'kevin97@gmail.com','qwertty!23','+12025550179',3.2,'p4'
+);
