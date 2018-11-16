@@ -78,3 +78,15 @@ insert into Host values (
 212,114,'Brian Griffin','514 S. Magnolia St.Orlando, FL 32806, CT 06074',
 '+12025550172','gabbyc@gmail.com','mettsrockz',3.2,'471325F'
 );
+
+/* Guest
+Name         Null?    Type
+------------ -------- ------------
+GUEST_ID     NOT NULL NUMBER(38)
+USER_ID               NUMBER(38)
+ADDRESS               VARCHAR2(50)
+EMAIL                 VARCHAR2(20)
+PASSWORD              VARCHAR2(10)
+PHONE_NUMBER          VARCHAR2(20)
+AVG_RATING            FLOAT(126)
+PROFILE               VARCHAR2(20) */
