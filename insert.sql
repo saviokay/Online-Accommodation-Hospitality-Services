@@ -49,3 +49,23 @@ insert into users values (
 114,'Gabriel-Auguste Côté','514 S. Magnolia St.Orlando, FL 32806, CT 06074',
 '+12025550172','gabbyc@gmail.com','mettsrockz',3.2,'p5', 'Host'
 );
+
+
+/* Host
+ Name           Null?    Type
+-------------- -------- ------------
+HOST_ID        NOT NULL NUMBER(38)
+USER_ID                 NUMBER(38)
+NAME                    CHAR(50)
+ADDRESS                 VARCHAR2(50)
+PHONE_NUMBER            VARCHAR2(20)
+EMAIL                   VARCHAR2(20)
+PASSWORD                VARCHAR2(10)
+AVG_RATING              FLOAT(126)
+ACCOUNT_NUMBER          VARCHAR2(20) */
+
+insert into Host values (
+210,110,'John Doe','123 6th St. Melbourne, FL 32904',
+'+1202555-0172','john.doe@gmail.com','john123',4.0,'498077A'
+);
+
