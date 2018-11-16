@@ -69,3 +69,12 @@ insert into Host values (
 '+1202555-0172','john.doe@gmail.com','john123',4.0,'498077A'
 );
 
+insert into Host values (
+211,112,'Craig Reilly','70 Bowman St.South Windsor, CT 06074',
+'+12025550125','craigr311@gmail.com','oreilly987',3.7,'471639C'
+);
+
+insert into Host values (
+212,114,'Brian Griffin','514 S. Magnolia St.Orlando, FL 32806, CT 06074',
+'+12025550172','gabbyc@gmail.com','mettsrockz',3.2,'471325F'
+);
