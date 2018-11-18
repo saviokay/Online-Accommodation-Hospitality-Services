@@ -130,3 +130,20 @@ insert into listing values (
 'Studio AP',4,2,2,1,2,timestamp'2017-11-11 05:30:00',timestamp'2017-11-13 01:00:00',
 AMINITIESTYPE('WiFi','AC')
 );
+
+/* Available_Table
+ Name            Null?    Type
+--------------- -------- ----------
+AVAIL_ID        NOT NULL NUMBER(38)
+LISTING_ID               NUMBER(38)
+START_DATE               DATE
+END_DATE                 DATE
+PRICE_PER_NIGHT          FLOAT(126) */
+
+insert into available_table values (
+5889,4128,'2017-11-01','2017-11-06',
+7250.50);
+
+insert into available_table values (
+5922,4230,'2017-11-11','2017-11-13',
+5550.00);
