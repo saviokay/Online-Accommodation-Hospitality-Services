@@ -100,3 +100,33 @@ insert into guest values (
 311,113,'44 Shirley Ave.West Chicago, IL 60185, CT 06074',
 'kevin97@gmail.com','qwertty!23','+12025550179',3.2,'p4'
 );
+
+
+/* Listing
+
+Name              Null?    Type
+----------------- -------- -------------
+LISTING_ID        NOT NULL NUMBER(38)
+HOST_ID                    NUMBER(38)
+ADDRESS                    VARCHAR2(50)
+BUILDING_TYPE              VARCHAR2(50)
+MAX_CAPACITY               NUMBER(38)
+NUMBER_BEDROOM             NUMBER(38)
+NUMBER_BEDS                NUMBER(38)
+NUMBER_BATHROOM            NUMBER(38)
+MIN_NUM_NIGHTSTAY          NUMBER(38)
+CHECK_IN_TIME              TIMESTAMP(6)
+CHECK_OUT_TIME             TIMESTAMP(6)
+AMINITIES                  AMINITIESTYPE */
+
+insert into listing values (
+4128,210,'123 6th St. Melbourne, FL 32904',
+'OutHouse',6,3,3,3,5,timestamp'2017-11-01 05:30:00',timestamp'2017-11-06 01:00:00',
+AMINITIESTYPE('WiFi','AC','Washing Machine')
+);
+
+insert into listing values (
+4230,211,'70 Bowman St.South Windsor, CT 06074',
+'Studio AP',4,2,2,1,2,timestamp'2017-11-11 05:30:00',timestamp'2017-11-13 01:00:00',
+AMINITIESTYPE('WiFi','AC')
+);
