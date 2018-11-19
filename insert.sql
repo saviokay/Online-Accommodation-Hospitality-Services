@@ -147,3 +147,6 @@ insert into available_table values (
 insert into available_table values (
 5922,4230,'2017-11-11','2017-11-13',
 5550.00);
+
+
+COMMIT;
