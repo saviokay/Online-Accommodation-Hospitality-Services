@@ -213,3 +213,6 @@ create sequence REGISTERUSER start with 110 increment by 1;
 create sequence BOOK_SEQ1 start with 5000 increment by 1;
 create sequence LISTID_SEQ start with 1000 increment by 1;
 create sequence REVIEWID start with 1 increment by 1;
+
+
+COMMIT
