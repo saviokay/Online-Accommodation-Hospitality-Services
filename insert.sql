@@ -149,4 +149,26 @@ insert into available_table values (
 5550.00);
 
 
+/* Booking_Info
+Name            Null?    Type
+--------------- -------- ------------
+BOOKING_ID      NOT NULL NUMBER(38)
+GUEST_ID                 NUMBER(38)
+LISTING_ID               NUMBER(38)
+CHECK_IN_DATE            DATE
+CHECK_OUT_DATE           DATE
+NUMBER_ADULT             NUMBER(38)
+NUMBER_CHILDREN          NUMBER(38)
+PAYMENT_METHOD           VARCHAR2(20)
+PAYMENT_DATE             DATE
+BOOKING_STATUS           VARCHAR2(15)
+PAYOUT_STATUS            VARCHAR2(20) */
+
+insert into booking_info values (
+7538269,310,4230,date'2017-11-11',date'2017-11-13',2,2,'CASH',date'2017-11-07','CONFIRMED','PAID');
+
+insert into booking_info values (
+8975311,311,4128,date'2017-11-01',date'2017-11-06',4,0,'CREDIT',date'2017-10-23','CANCELLED','FAILED');
+
+
 COMMIT;
