@@ -171,4 +171,21 @@ insert into booking_info values (
 8975311,311,4128,date'2017-11-01',date'2017-11-06',4,0,'CREDIT',date'2017-10-23','CANCELLED','FAILED');
 
 
+/* Payout_Info
+Name          Null?    Type
+------------- -------- ------------
+PAYOUT_ID     NOT NULL NUMBER(38)
+BOOKING_ID             NUMBER(38)
+HOST_ID                NUMBER(38)
+PAYOUT_DATE            DATE
+PAYOUT_STATUS          VARCHAR2(20)
+TOTAL_AMOUNT           FLOAT(126) */
+
+insert into payout_info values (
+9543255,7538269,211,date'2017-11-07','PAID',7250.50);
+
+insert into payout_info values (
+1643432,8975311,210,date'2017-10-23','FAILED',5550.00);
+
+
 COMMIT;
