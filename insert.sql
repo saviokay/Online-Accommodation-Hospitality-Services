@@ -202,5 +202,19 @@ insert into review values (
 insert into review values (
 765,311,210,'This was a lovely little place to stay away from the tourist bustle with a beautiful view, while still being just a short walk to the train which can easily take you throughout Tuscany.');
 
+/* Message
+Name     Null?    Type
+-------- -------- -------------
+MSG_ID   NOT NULL NUMBER(38)
+USER_ID           NUMBER(38)
+MSG_DATE          DATE
+MSG_BODY          VARCHAR2(100)
+*/
+
+insert into message values (
+921,111,date'2017-11-15','It is a long established fact that a reader will be distracted by the readable content.');
+insert into message values (
+411,113,date'2017-11-07','Lorem Ipsum is simply dummy text of the printing and typesetting industry.');
+
 
 COMMIT;
