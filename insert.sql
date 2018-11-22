@@ -187,5 +187,20 @@ insert into payout_info values (
 insert into payout_info values (
 1643432,8975311,210,date'2017-10-23','FAILED',5550.00);
 
+/* Review
+Name      Null?    Type
+--------- -------- -------------
+REVIEW_ID NOT NULL NUMBER(38)
+GUEST_ID           NUMBER(38)
+HOST_ID            NUMBER(38)
+REVIEW             VARCHAR2(200)
+*/
+
+insert into review values (
+123,310,211,'Roxanas place is in a great location for visiting must-see sights in Kyoto.');
+
+insert into review values (
+765,311,210,'This was a lovely little place to stay away from the tourist bustle with a beautiful view, while still being just a short walk to the train which can easily take you throughout Tuscany.');
+
 
 COMMIT;
