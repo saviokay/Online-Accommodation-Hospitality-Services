@@ -268,5 +268,45 @@ REGISTERUSER.nextval,'Rita R. Torres','2022 Adonais Way Newnan, GA 30263',
 );
 
 
+/* Host
+ Name           Null?    Type
+-------------- -------- ------------
+HOST_ID NUMBER(38,0)
+USER_ID NUMBER(38,0)
+NAME    CHAR(50 BYTE)
+ADDRESS VARCHAR2(100 BYTE)
+PHONE_NUMBER    VARCHAR2(20 BYTE)
+EMAIL   VARCHAR2(50 BYTE)
+PASSWORD    VARCHAR2(20 BYTE)
+AVG_RATING  FLOAT
+ACCOUNT_NUMBER  VARCHAR2(30 BYTE) */
+
+insert into Host values (
+hostseq.nextval,110,'John Doe','123 6th St. Melbourne, FL 32904',
+'+1202555-0172','john.doe@gmail.com','john123',0.0,'498077A'
+);
+
+insert into Host values (
+hostseq.nextval,112,'Craig Reilly','70 Bowman St.South Windsor, CT 06074',
+'+12025550125','craigr311@gmail.com','oreilly987',0.0,'471639C'
+);
+
+insert into Host values (
+hostseq.nextval,114,'Gabriel-Auguste Côté','514 S. Magnolia St.Orlando, FL 32806, CT 06074',
+'+12025550172','gabbyc@gmail.com','mettsrockz',0.0,'471325F'
+);
+
+insert into Host values (
+hostseq.nextval,116,'George C. Williams','2635 Happy Hollow Road Clinton, NC 28328',
+'+19105920324','georgec@gmail.com','jesus123',0.0,'789358F'
+);
+
+
+insert into Host values (
+hostseq.nextval,118,'Joan J. Sawyer','743 Spinnaker Lane Lisbon, IL 60541',
+'+18157363098','joan.j@gmail.com','i5qt123',0.0,'987543D'
+);
+
+
 
 COMMIT;
