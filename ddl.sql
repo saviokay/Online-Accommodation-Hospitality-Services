@@ -215,4 +215,58 @@ create sequence LISTID_SEQ start with 1000 increment by 1;
 create sequence REVIEWID start with 1 increment by 1;
 
 
-COMMIT
+--Inserting Initial Values
+
+
+
+
+
+
+insert into users values (
+REGISTERUSER.nextval,'John Doe','123 6th St. Melbourne, FL 32904',
+'+1202555-0172','john.doe@gmail.com','john123', 'host');
+
+insert into users values (
+REGISTERUSER.nextval,'Emelia Oberbrunner III','71 Pilgrim Avenue Chevy Chase, MD 20815',
+'+12025550167','emober3@gmail.com','password123','guest'
+);
+
+insert into users values (
+REGISTERUSER.nextval,'Craig Reilly','70 Bowman St.South Windsor, CT 06074',
+'+12025550125','craigr311@gmail.com','oreilly987','both');
+
+insert into users values (
+REGISTERUSER.nextval,'Kevin Leandro','44 Shirley Ave.West Chicago, IL 60185, CT 06074',
+'+12025550179','kevin97@gmail.com','qwertty!23','guest');
+
+insert into users values (
+REGISTERUSER.nextval,'Gabriel-Auguste Côté','514 S. Magnolia St.Orlando, FL 32806, CT 06074',
+'+12025550172','gabbyc@gmail.com','mettsrockz','host');
+
+insert into users values (
+REGISTERUSER.nextval,'Jerome D. Levi','1093 Stratford Court Raleigh, NC 27601',
+'+19197559586','jerome3@gmail.com','password123','guest');
+
+insert into users values (
+REGISTERUSER.nextval,'George C. Williams','2635 Happy Hollow Road Clinton, NC 28328',
+'+19105920324','georgec@gmail.com','jesus123','host'
+);
+
+insert into users values (
+REGISTERUSER.nextval,'Jacqueline E. Torres','4894 Worthington Drive Dallas, TX 75201',
+'+19726165405','jacq56@gmail.com','jaccq64','guest'
+);
+
+insert into users values (
+REGISTERUSER.nextval,'Joan J. Sawyer','743 Spinnaker Lane Lisbon, IL 60541',
+'+18157363098','joan.j@gmail.com','i5qt123','host'
+);
+
+insert into users values (
+REGISTERUSER.nextval,'Rita R. Torres','2022 Adonais Way Newnan, GA 30263',
+'+16784236467','ritat1@gmail.com','password123','guest'
+);
+
+
+
+COMMIT;
