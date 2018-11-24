@@ -268,7 +268,7 @@ REGISTERUSER.nextval,'Rita R. Torres','2022 Adonais Way Newnan, GA 30263',
 );
 
 
-/* Host
+/* Host@
  Name           Null?    Type
 -------------- -------- ------------
 HOST_ID NUMBER(38,0)
