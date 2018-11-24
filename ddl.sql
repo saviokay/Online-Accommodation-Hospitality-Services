@@ -281,7 +281,7 @@ PASSWORD    VARCHAR2(20 BYTE)
 AVG_RATING  FLOAT
 ACCOUNT_NUMBER  VARCHAR2(30 BYTE) */
 
-insert into Host values (
+insert into Host values (1
 hostseq.nextval,110,'John Doe','123 6th St. Melbourne, FL 32904',
 '+1202555-0172','john.doe@gmail.com','john123',0.0,'498077A'
 );
