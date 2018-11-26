@@ -135,6 +135,12 @@ create table available_table
    primary key (avail_id),
    foreign key (listing_id) references listing (listing_id));
 
+/*
+-- Table Booking Info:
+
+Creating Table Booking Info with various attributes like listing_id, guest_id, listing_id, payment_method etc. booking_id is declared as a primary key whereas guest_id & listing_id are declared as a foreign key to provide the reference with the Table Host.
+
+*/
 
 create table booking_info
   (booking_id int,
