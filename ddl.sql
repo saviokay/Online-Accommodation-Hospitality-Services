@@ -159,6 +159,12 @@ create table booking_info
    foreign key (guest_id) references guest (guest_id),
    foreign key (listing_id) references listing (listing_id));
 
+/*
+-- Table Payout Info:
+
+Creating Table Payout Info with various attributes like listing_id, guest_id, payout_id, payout_status etc. payout_id is declared as a primary key whereas guest_id & host_id are declared as a foreign key to provide the reference with the Table Host.
+
+*/
 
 create table payout_info
   (payout_id int,
