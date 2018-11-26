@@ -119,6 +119,13 @@ create table listing
    foreign key (host_id) references host (host_id));
 
 
+/*
+-- Table Available:
+
+Creating Table Availability with various attributes like listing_id, start_date, end_date, price_per_night etc. avail_id is declared as a primary key whereas listing_id is declared as a foreign key to provide the reference with the Table Host.
+
+*/
+
 create table available_table
   (avail_id int,
    listing_id,
