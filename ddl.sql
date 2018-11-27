@@ -176,6 +176,13 @@ create table payout_info
    foreign key (host_id) references host (host_id));
 
 
+/*
+-- Table Review:
+
+Creating Table Review with various attributes like review_id, guest_id, host_id, review etc. review_id is declared as a primary key whereas guest_id & host_id are declared as a foreign key to provide the reference with the Table Host.
+
+*/
+
 create table review
   (review_id int,
    guest_id int,
