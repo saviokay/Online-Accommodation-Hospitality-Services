@@ -231,7 +231,12 @@ Drop sequence REVIEWID;
 Drop sequence hostseq;
 Drop sequence guestseq;
 
+/*
+-- Table Message:
 
+Creating Table Message with various attributes like msg_id, user_id, msg_date, msg_body etc. msg_id is declared as a primary key whereas user_id is declared as a foreign key to provide the reference with the Table Host.
+
+*/
 --create sequences
 
 
