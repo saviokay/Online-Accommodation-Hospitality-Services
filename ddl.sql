@@ -194,7 +194,12 @@ create table review
    foreign key (guest_id) references guest ( guest_id),
    foreign key (host_id) references host (host_id));
 
+/*
+-- Table Message:
 
+Creating Table Message with various attributes like msg_id, user_id, msg_date, msg_body etc. msg_id is declared as a primary key whereas user_id is declared as a foreign key to provide the reference with the Table Host.
+
+*/
 create table message
   (msg_id int,
    user_id int,
