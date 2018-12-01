@@ -232,9 +232,9 @@ Drop sequence hostseq;
 Drop sequence guestseq;
 
 /*
--- Table Message:
+-- Sequence Commands:
 
-Creating Table Message with various attributes like msg_id, user_id, msg_date, msg_body etc. msg_id is declared as a primary key whereas user_id is declared as a foreign key to provide the reference with the Table Host.
+Sequence is a feature supported by some database systems to produce unique values on demand. Some DBMS like MySQL supports AUTO_INCREMENT in place of Sequence.
 
 */
 --create sequences
