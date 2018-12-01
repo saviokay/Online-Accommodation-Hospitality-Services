@@ -237,7 +237,7 @@ Drop sequence guestseq;
 Sequence is a feature supported by some database systems to produce unique values on demand. Some DBMS like MySQL supports AUTO_INCREMENT in place of Sequence.
 
 */
---create sequences
+
 
 
 create sequence hostseq start with 200 increment by 1;
