@@ -256,10 +256,7 @@ create sequence REVIEWID start with 1 increment by 1;
 /*
 -- Insert Commands:
 
-Insert Commands is a feature supported by some database systems to store in specific values. The SQL INSERT INTO Statement is used to add new rows of data to a table in the database.
-
-
-
+Insert Commands is a feature supported by some database systems to store in specific values. The SQL INSERT INTO Statement is used to add new rows of data to a table in the database.You may not need to specify the column(s) name in the SQL query if you are adding values for all the columns of the table. But make sure the order of the values is in the same order as the columns in the table.
 */
 
 
