@@ -254,9 +254,11 @@ create sequence REVIEWID start with 1 increment by 1;
 --Inserting Initial Values
 
 /*
--- Sequence Commands:
+-- Insert Commands:
 
-Sequence is a feature supported by some database systems to produce unique values on demand. Some DBMS like MySQL supports AUTO_INCREMENT in place of Sequence.
+Insert Commands is a feature supported by some database systems to store in specific values. The SQL INSERT INTO Statement is used to add new rows of data to a table in the database.
+
+
 
 */
 
