@@ -309,7 +309,7 @@ REGISTERUSER.nextval,'Rita R. Torres','2022 Adonais Way Newnan, GA 30263',
 /* Host
 
 /*
--- Host:
+-- Host Insert Commands:
 
 Insert Commands is a feature supported by some database systems to store in specific values. The SQL INSERT INTO Statement is used to add new rows of data to a table in the database.You may not need to specify the column(s) name in the SQL query if you are adding values for all the columns of the table. But make sure the order of the values is in the same order as the columns in the table.
 
