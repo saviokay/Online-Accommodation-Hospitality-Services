@@ -50,6 +50,12 @@ insert into users values (
 '+12025550172','gabbyc@gmail.com','mettsrockz',3.2,'p5', 'Host'
 );
 
+insert into users values (
+115,'Inagustin Jameś','5001 S. Bousten St.Orlando, MD 21230, YT 04038',
+'+12025549873','tyhjasm@gmail.com','jettsrockz',3.2,'p5', 'Host'
+);
+
+
 
 /* Host
  Name           Null?    Type
