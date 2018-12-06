@@ -352,6 +352,9 @@ hostseq.nextval,118,'Joan J. Sawyer','743 Spinnaker Lane Lisbon, IL 60541',
 '+18157363098','joan.j@gmail.com','i5qt123',0.0,'987543D'
 );
 
-
+insert into Host values (
+hostseq.nextval,119,'Tom Sawyer','9 Christ Lane, OH 60541',
+'+14567364093','tom.s@gmail.com','iasfas12',0.0,'987358F'
+);
 
 COMMIT;
