@@ -55,6 +55,10 @@ insert into users values (
 '+12025549873','tyhjasm@gmail.com','jettsrockz',3.2,'p5', 'Host'
 );
 
+insert into users values (
+116,'Jack BBladeRunner III','71 Mathheh Avenue , MD 20815',
+'+12025552313','James123@gmail.com','password123',3.5,'p2', 'Guest'
+);
 
 
 /* Host
