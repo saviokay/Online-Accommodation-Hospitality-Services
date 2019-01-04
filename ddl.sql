@@ -357,4 +357,12 @@ hostseq.nextval,119,'Tom Sawyer','9 Christ Lane, OH 60541',
 '+14567364093','tom.s@gmail.com','iasfas12',0.0,'987358F'
 );
 
+insert into Host values (
+hostseq.nextval,119,'Tom Sawyer','9 Christ Lane, OH 60541',
+'+14567364093','tom.s@gmail.com','iasfas12',0.0,'987358F'
+);insert into Host values (
+hostseq.nextval,119,'Tom Sawyer','9 Christ Lane, OH 60541',
+'+14567364093','tom.s@gmail.com','iasfas12',0.0,'987358F'
+);
+
 COMMIT;
