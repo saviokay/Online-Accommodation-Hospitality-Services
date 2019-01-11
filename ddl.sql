@@ -4,14 +4,14 @@
 - ===================================
 Created:     Fri Sep 27 13:16:17 2017
 Author:      saviokay
-Description: The project revolves around designing a database system for an online accommodation and hospitality company service.  We achieve this by designing the database, inserting sample data and implement a set of required features. Each feature will be implemented as one or more Oracle PL/SQL procedures.
+Description: The project revolves around designing a database system for an online accommodation & hospitality company service.  We achieve this by designing the database, inserting sample data and implement a set of required features. Each feature will be implemented as one or more Oracle PL/SQL procedures.
 - ===================================
 */
 
 
 /*
 --Drop Commands :
-    Initially declared to avoid prior data redundancies.
+    Initially declared to avoid prior data redundancies and issues.
 */
 
 drop table message;
@@ -26,7 +26,7 @@ drop table Users;
 
 /*
 --Create Commands:
-    Declared for creating Datasbase Schema.
+    Declared for creating Datasbase Schema according to project guidelines.
 */
 
 /*
