@@ -88,7 +88,8 @@ create table guest
 -- aminitiesType:
 
 Declaring custom TYPE for specific category of aminitiesType for the Table Listing. This type helps store
-various services provided by the listing which is added to the table in type VARCHAR. Using 'CREATE OR REPLACE' to help create with overriding properties.
+various services provided by the listing which is added to the table in type 'VARCHAR'.
+Using 'CREATE OR REPLACE' to help create with overriding properties.
 */
 
 CREATE OR REPLACE TYPE aminitiesType AS VARRAY(20) OF VARCHAR(50);
